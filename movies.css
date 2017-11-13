@@ -1,0 +1,80 @@
+.one{
+	background: url("https://static.rogerebert.com/uploads/review/primary_image/reviews/great-movie-the-big-lebowski-1998/hero_Big-Lebowski-image.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 75vh;
+}
+
+.info{
+	color: white;
+	font-weight: bold;
+	padding: 25px;
+	padding-top: 50px;
+}
+
+.rating{
+	border:solid 3px;
+	padding: 2px;
+}
+
+button{
+    border: 2px solid;
+    font-weight:.bold;
+    padding:.70em 1.3em;
+    margin-bottom:.85em;
+	background-color: white;
+}
+
+.two{
+	background:url("http://cdn.collider.com/wp-content/uploads/2017/06/hot-fuzz.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 75vh;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.three{
+	background:url("http://www.asset1.net/tv/pictures/movie/for-a-few-dollars-more-1965/For-A-Few-Dollars-More-LB4-1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.four{
+	background:url("http://4.bp.blogspot.com/-t2KKPy_0Mc0/UVkPfDViZxI/AAAAAAAAD78/Vw0VN3aSWjw/s1600/Memento+5.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.five{
+	background:url("https://www.ayola.tv/wp-content/uploads/2017/02/Pulp-Fiction-Duo.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 75vh;
+	background-attachment: fixed;
+}
+
+.six{
+	background:url("http://cdn4.thr.com/sites/default/files/2014/10/This_is_Spinal_Tap.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 75vh;
+	background-attachment: fixed;
+}
+h1{
+	margin:0;
+}
+body{
+margin:0;
+}
