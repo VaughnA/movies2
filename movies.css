@@ -78,3 +78,12 @@ h1{
 body{
 margin:0;
 }
+
+@media screen and (max-width:375px){
+	.info {
+		Display: flex
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+}
