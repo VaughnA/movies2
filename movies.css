@@ -4,7 +4,7 @@
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 75vh;
+	height: 100vh;
 }
 
 .info{
@@ -12,6 +12,7 @@
 	font-weight: bold;
 	padding: 25px;
 	padding-top: 50px;
+	text-shadow: 5px 5px black;
 }
 
 .rating{
@@ -21,10 +22,11 @@
 
 button{
     border: 2px solid;
-    font-weight:.bold;
+    font-weight:bold;
+	background-color: white;
+	  font-size:.75em;
     padding:.70em 1.3em;
     margin-bottom:.85em;
-	background-color: white;
 }
 
 .two{
@@ -32,7 +34,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
 }
@@ -42,7 +44,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -51,7 +53,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -60,7 +62,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	background-attachment: fixed;
 }
 
@@ -69,7 +71,7 @@ button{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 	background-attachment: fixed;
 }
 h1{
@@ -79,6 +81,10 @@ body{
 margin:0;
 }
 
+.hover{
+	box-shadow: 0 0 20px #fff;
+	
+}
 @media screen and (max-width:375px){
 	.info {
 		Display: flex
@@ -87,3 +93,4 @@ margin:0;
 		justify-content: center;
 	}
 }
+
