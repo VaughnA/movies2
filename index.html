@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, intial-scale=1">
-		<link rel="stylesheet" type="text/css" href="movies.css">
+		<link href="https://images.rapgenius.com/80469d62f541cad6649c4c421f5d6122.1000x774x1.jpg" rel="icon" type="image/x-icon" />
+		<title>Movies</title>
+		<link rel="stylesheet" type="text/css" href="movies2.css">
 	</head>
 	
 	<body>
@@ -12,15 +14,23 @@
 			<h1>The Big Lebowski</h1>
 				<p>Coen Brothers</p>
 				<p><span class="rating">R</span> 2hr 22min - Indie/ Thriller</p>
-					<p>
 					
-					</p>
-					<button>
-						Click to Watch
-					</button>
+					<button onclick="myFunction()">
+						Click to Hide Analysis
+					</button>	
+					
+					<div id="commentary">
+						Example
+					</div>
+					
+					<div id="sound1" onclick="playSound1(this)">
+						<audio src="big.mp3" type="audio/mp3" id="big"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/z92bykaeV4o" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
+		
 		</div>
 		
 	<div class="movie two">
@@ -28,12 +38,19 @@
 			<h1>Hot Fuzz</h1>
 				<p>Edgar Wright</p>
 				<p><span class="rating">R</span> 2hr 1min - Parody/Mystery/Comedy/Action</p>
-					<p>
 					
-					</p>
-					<button>
-						Click to Watch
+					<button onclick="myFunction2()">
+						Click to Hide Analysis
 					</button>
+				
+					<div id="commentary1">
+						Example
+					</div>
+					
+					<div id="sound2" onclick="playSound2(this)">
+						<audio src="hot.mp3" type="audio/mp3" id="hot"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/faMh6OYfuNE" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
@@ -44,12 +61,19 @@
 			<h1>For a Few Dollars More</h1>
 				<p>Sergio Leone</p>
 				<p><span class="rating">R</span> 2hr 12min - Crime/Action/Western</p>
-					<p>
 					
-					</p>
-					<button onmouseover="makeHover(this)" onmouseout="makeNormal(this)">
-						Click to Watch
+					<button onclick="myFunction3()">
+						Click to Hide Analysis
 					</button>
+					
+					<div id="commentary2">
+						Example
+					</div>
+					
+					<div id="sound3" onclick="playSound3(this)">
+						<audio src="forafew.mp3" type="audio/mp3" id="forafew"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/sqZF8XD9Pk4" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
@@ -60,12 +84,19 @@
 			<h1>Memento</h1>
 				<p>Christopher Nolan</p>
 				<p><span class="rating">R</span> 1hr 53min - Crime/Thriller/Mystery</p>
-					<p>
-					
-					</p>
-					<button>
-						Click to Watch
+	
+					<button onclick="myFunction4()">
+						Click to Hide Analysis
 					</button>
+					
+					<div id="commentary3">
+						Example
+					</div>
+					
+					<div id="sound4" onclick="playSound4(this)">
+						<audio src="memento.mp3" type="audio/mp3" id="memento"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/srzw3qhtnes" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
@@ -76,12 +107,19 @@
 			<h1>Pulp Fiction</h1>
 				<p>Quentin Tarantino</p>
 				<p><span class="rating">R</span> 2hr 58min - Crime/Thriller</p>
-					<p>
 					
-					</p>
-					<button>
-						Click to Watch
+					<button onclick="myFunction5()">
+						Click to Hide Analysis
 					</button>
+					
+					<div id="commentary4">
+						Example
+					</div>
+					
+					<div id="sound5" onclick="playSound5(this)">
+						<audio src="pulp.mp3" type="audio/mp3" id="pulp"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/uYSt8K8VP6k" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
@@ -92,12 +130,19 @@
 			<h1>Spinal Tap</h1>
 				<p>Rob Reiner</p>
 				<p><span class="rating">R</span> 1hr 25min - Comedy/Mockumentary/Musical</p>
-					<p>
 					
-					</p>
-					<button>
-						Click to Watch
+					<button onclick="myFunction6()">
+						Click to Hide Analysis
 					</button>
+					
+					<div id="commentary5">
+						Example
+					</div>
+					
+					<div id="sound6"onclick="playSound6(this)">
+						<audio src="spinal.mp3" type="audio/mp3" id="spinal"></audio>
+						Click For Music
+					</div>
 					
 					<center><iframe width="854" height="480" src="https://www.youtube.com/embed/uMSV4OteqBE" frameborder="0" gesture="media" allowfullscreen></iframe></center>
 		</div>
@@ -105,8 +150,9 @@
 		
 		
 	</div>
+	</section>
 		
-	<script src="script.js"></script>
+	<script src="movies2.js"></script>
 	
 	</body>	
 		
