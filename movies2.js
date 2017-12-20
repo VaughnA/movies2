@@ -1,3 +1,39 @@
+function myFunction1(elem) {
+    var x = document.getElementById("commentary");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunction2(elem) {
+    var x = document.getElementById("commentary1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunction3(elem) {
+    var x = document.getElementById("commentary2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myFunction4(elem) {
+    var x = document.getElementById("commentary3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
 function myFunction5(elem) {
     var x = document.getElementById("commentary4");
     if (x.style.display === "none") {
