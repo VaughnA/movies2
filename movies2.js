@@ -1,4 +1,4 @@
-function myFunction1(elem) {
+function myFunction(elem) {
     var x = document.getElementById("commentary");
     if (x.style.display === "none") {
         x.style.display = "block";
